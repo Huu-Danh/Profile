@@ -1,0 +1,23 @@
+@import 'tailwindcss';
+@theme {
+  --animate-float: float 4s ease-in-out infinite;
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
+
+html {
+  height: 100%;
+  line-height: 1.2;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+}
