@@ -2,6 +2,7 @@ import Footer from 'src/components/Footer'
 import Header from 'src/components/Header'
 import Banner from './Banner'
 import About from './About'
+import Skill from './Skill'
 
 export default function Mainlayout() {
   return (
@@ -10,6 +11,7 @@ export default function Mainlayout() {
       <div className='bg-gray-50 h-500'>
         <Banner />
         <About />
+        <Skill />
         main
       </div>
       <Footer />
