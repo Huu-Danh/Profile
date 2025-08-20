@@ -54,17 +54,18 @@ export function ShimmeringText({
 
   // Determine if we should start animation
   const shouldAnimate = !startOnView || isInView
+
   return (
     <motion.span
       ref={ref}
       className={`
-      relative inline-block bg-[length:250%_100%,auto] bg-clip-text text-transparent
-      [--base-color:var(--color-zinc-400)] [--shimmer-color:var(--color-zinc-950)]
-      [background-repeat:no-repeat,padding-box]
-      [--shimmer-bg:linear-gradient(90deg,transparent_calc(50%-var(--spread)),var(--shimmer-color),transparent_calc(50%+var(--spread)))]
-      dark:[--base-color:var(--color-zinc-600)] dark:[--shimmer-color:var(--color-white)]
-      ${className ?? ''}
-    `}
+    relative inline-block bg-[length:250%_100%,auto] bg-clip-text text-transparent
+    [--base-color:var(--color-zinc-400)] [--shimmer-color:var(--color-zinc-950)]
+    [background-repeat:no-repeat,padding-box]
+    [--shimmer-bg:linear-gradient(90deg,transparent_calc(50%-var(--spread)),var(--shimmer-color),transparent_calc(50%+var(--spread)))]
+    dark:[--base-color:var(--color-zinc-600)] dark:[--shimmer-color:var(--color-white)]
+    ${className ?? ''}
+  `}
       style={
         {
           '--spread': `${dynamicSpread}px`,
