@@ -1,8 +1,8 @@
 export default function About() {
   return (
     <div id='about' className='m-5 py-10 px-5 min-h-screen bg-indigo-50'>
-      <div className='text-4xl font-bold text-center mb-16'>About Me</div>
-      <div className='grid grid-cols-1 md:grid-cols-12 items-center gap-6'>
+      <div className='text-4xl font-bold text-center mt-10 mb-16'>About Me</div>
+      <div className='grid grid-cols-1 md:grid-cols-12 items-center max-w-5xl mx-auto gap-6'>
         <div className='md:col-span-4 flex justify-center'>
           <img src='./public/images/Avartar-Danh.png' alt='' className='rounded-xl shadow-lg w-full max-w-[250px]' />
         </div>

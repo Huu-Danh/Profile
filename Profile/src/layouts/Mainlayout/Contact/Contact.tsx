@@ -8,8 +8,8 @@ import { Button } from 'src/components/ui/button'
 export default function Contact() {
   return (
     <div id='contact' className='m-5 py-10 px-5 min-h-screen'>
-      <div className='text-4xl font-bold text-center mb-16'>Get In Touch</div>
-      <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
+      <div className='text-4xl font-bold text-center mt-10 mb-16'>Get In Touch</div>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto '>
         <div className='space-y-8'>
           <div>
             <h3 className='text-xl font-bold text-slate-800 mb-4'>Contact Information</h3>
@@ -76,10 +76,10 @@ export default function Contact() {
           <Input type='text' placeholder='Subject' />
           <div className='block font-medium text-sm text-slate-800 mb-1'>Message</div>
           <textarea
-            className='w-full h-30 mb-1 px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent'
+            className='w-full h-30 mb-5 px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent'
             placeholder='Your Message'
           />
-          <Button className='px-6 py-3 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition w-full'>
+          <Button className='px-6 py-5 bg-indigo-600 text-white rounded-lg font-medium hover:bg-indigo-700 transition w-full'>
             Send Message <IoIosSend />
           </Button>
         </form>

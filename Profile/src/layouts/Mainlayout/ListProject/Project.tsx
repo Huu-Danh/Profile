@@ -3,8 +3,8 @@ import ProjectCard from './ProjectCrad'
 export default function Project() {
   return (
     <div id='project' className='m-5 py-10 px-5 min-h-screen bg-indigo-50'>
-      <div className='text-4xl font-bold text-center mb-16'>Featured Projects</div>
-      <Carousel className='w-full'>
+      <div className='text-4xl font-bold text-center mt-10 mb-16'>Featured Projects</div>
+      <Carousel className='w-full max-w-5xl mx-auto'>
         <CarouselContent>
           {Array.from({ length: 5 }).map((_, index) => (
             <CarouselItem key={index} className='pl-1 md:basis-1/2 lg:basis-1/3'>
