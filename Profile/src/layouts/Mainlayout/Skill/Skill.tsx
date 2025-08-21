@@ -2,7 +2,7 @@ import SkillCard from './SkillCard'
 
 export default function Skill() {
   return (
-    <div id='skill' className='m-5 py-10 px-5 h-[100vh]'>
+    <div id='skill' className='m-5 py-10 px-5 min-h-screen'>
       <div className='text-4xl font-bold text-center mb-16'>My Skill</div>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
         <SkillCard

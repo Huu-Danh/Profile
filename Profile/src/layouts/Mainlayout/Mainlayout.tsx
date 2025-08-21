@@ -3,6 +3,7 @@ import Header from 'src/components/Header'
 import Banner from './Banner'
 import About from './About'
 import Skill from './Skill'
+import Project from './ListProject'
 
 export default function Mainlayout() {
   return (
@@ -12,6 +13,7 @@ export default function Mainlayout() {
         <Banner />
         <About />
         <Skill />
+        <Project />
         main
       </div>
       <Footer />
