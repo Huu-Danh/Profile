@@ -5,7 +5,7 @@ export default function Banner() {
   return (
     <div
       id='home'
-      className='relative w-full min-h-screen bg-gradient-to-l from-gray-200 to-gray-400 flex items-center'
+      className='relative w-full min-h-screen  dark:bg-gradient-to-l from-gray-200 to-gray-400 flex items-center'
     >
       <div className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10'>
         <div className='w-full md:w-1/2 text-center md:text-left space-y-6'>

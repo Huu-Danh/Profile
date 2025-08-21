@@ -3,8 +3,8 @@ import SkillCard from './SkillCard'
 export default function Skill() {
   return (
     <div id='skill' className='m-5 py-10 px-5 min-h-screen'>
-      <div className='text-4xl font-bold text-center mb-16'>My Skill</div>
-      <div className='grid grid-cols-1 md:grid-cols-3 gap-6'>
+      <div className='text-4xl font-bold text-center mt-10 mb-16'>My Skill</div>
+      <div className='grid grid-cols-1 md:grid-cols-3 max-w-5xl mx-auto gap-6'>
         <SkillCard
           title='Frontend Development'
           description='Building responsive and interactive web interfaces using modern frameworks and libraries.'

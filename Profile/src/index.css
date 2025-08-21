@@ -1,6 +1,6 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:where(.dark, .dark *));
 :root {
   --background: var(--color-white);
   --foreground: var(--color-zinc-950);
@@ -28,7 +28,7 @@
   --ring: var(--color-zinc-400);
   --radius: 0.5rem;
 }
-
+/* 
 .dark {
   --background: var(--color-zinc-950);
   --foreground: var(--color-zinc-50);
@@ -54,7 +54,7 @@
   --border: var(--color-zinc-800);
   --input: var(--color-zinc-800);
   --ring: var(--color-zinc-600);
-}
+} */
 /** Theme Setup **/
 @theme inline {
   --color-background: var(--background);
