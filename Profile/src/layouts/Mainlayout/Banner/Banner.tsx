@@ -11,15 +11,14 @@ export default function Banner() {
         <div className='w-full md:w-1/2 text-center md:text-left space-y-6'>
           <div>
             <h1 className='text-2xl md:text-4xl pt-15 md:pt-0 text-gray-800'>Hi, I'm Hữu Danh</h1>
-            <span className='text-black text-4xl md:text-6xl font-bold block'>
-              <ShimmeringText
-                text='Developer'
-                color='Black'
-                shimmerColor='var(--color-white)'
-                duration={1.5}
-                repeatDelay={1}
-              />
-            </span>
+            <ShimmeringText
+              className='text-black text-4xl md:text-6xl font-bold block'
+              text='Developer'
+              color='Black'
+              shimmerColor='var(--color-white)'
+              duration={1.5}
+              repeatDelay={1}
+            />
           </div>
 
           <p className='text-sm md:text-xl text-gray-700 leading-relaxed'>
