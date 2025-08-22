@@ -169,7 +169,7 @@ function CarouselPrevious({
       data-slot='carousel-previous'
       variant={variant}
       size={size}
-      className={`absolute size-8 rounded-full ${
+      className={`absolute bg-gray-400 size-8 rounded-full ${
         orientation === 'horizontal'
           ? 'top-1/2 -left-0 -translate-y-1/2'
           : '-top-12 left-1/2 -translate-x-1/2 rotate-90'
@@ -197,7 +197,7 @@ function CarouselNext({
       data-slot='carousel-next'
       variant={variant}
       size={size}
-      className={`absolute size-8 rounded-full ${
+      className={`absolute bg-gray-400 size-8 rounded-full ${
         orientation === 'horizontal'
           ? 'top-1/2 -right-0 -translate-y-1/2'
           : '-bottom-12 left-1/2 -translate-x-1/2 rotate-90'

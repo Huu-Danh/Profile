@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import { MdOutlineDarkMode } from 'react-icons/md'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -27,7 +28,7 @@ export default function Header() {
             <h1 className='text-xl font-bold'>Hữu Danh</h1>
           </a>
 
-          <nav className='hidden md:flex space-x-8 font-medium'>
+          <nav className='hidden md:flex space-x-8 font-medium items-center'>
             <a href='#home' className='hover:text-blue-500 transition'>
               Home
             </a>
@@ -43,6 +44,9 @@ export default function Header() {
             <a href='#contact' className='hover:text-blue-500 transition'>
               Contact
             </a>
+            <button className='bg-yellow-300/0 rounded-md p-1 hover:bg-gray-50/30'>
+              <MdOutlineDarkMode className='m-1' />
+            </button>
           </nav>
 
           <button className='md:hidden text-gray-800 z-50' onClick={() => setIsOpen(!isOpen)}>
@@ -51,7 +55,7 @@ export default function Header() {
         </div>
 
         {isOpen && (
-          <div className='md:hidden flex flex-col space-y-4 pb-4 font-medium'>
+          <div className='md:hidden flex flex-col space-y-4 pb-4 font-medium '>
             <a href='#home' onClick={() => setIsOpen(false)} className='hover:text-blue-500'>
               Home
             </a>
@@ -67,6 +71,9 @@ export default function Header() {
             <a href='#contact' onClick={() => setIsOpen(false)} className='hover:text-blue-500'>
               Contact
             </a>
+            <button onClick={() => setIsOpen(false)} className='bg-yellow-300/0 rounded-md p-1 hover:bg-gray-50/30'>
+              <MdOutlineDarkMode className='m-1' />
+            </button>
           </div>
         )}
       </div>
