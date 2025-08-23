@@ -42,7 +42,7 @@ export default function Banner() {
 
         <div className='w-full md:w-1/2 flex justify-center'>
           <img
-            src='./public/images/huudanh.jpg'
+            src='/images/huudanh.jpg'
             alt='avatar hữu danh'
             className='w-full max-w-[350px] md:max-w-[450px] aspect-square object-cover rounded-3xl shadow-lg animate-float'
           />
