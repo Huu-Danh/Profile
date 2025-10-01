@@ -10,10 +10,10 @@ export default function About() {
         <div className='md:col-span-8'>
           <p className='text-indigo-600 uppercase font-bold mb-5 text-xl'>my info</p>
           <p className='leading-relaxed text-gray-700 mb-5'>
-            Over one year of experience developing web applications using .NET Core 8 for backend and React for
-            frontend. Skilled in optimizing frontend performance for speed and responsiveness, designing scalable
-            backend APIs, and delivering secure, maintainable systems. Passionate about clean code, system performance,
-            and continuous learning.
+            Over one year of experience developing web applications using .NET 8 for backend and React for frontend.
+            Skilled in optimizing frontend performance for speed and responsiveness, designing scalable backend APIs,
+            and delivering secure, maintainable systems. Passionate about clean code, system performance, and continuous
+            learning.
           </p>
           <div className='text-gray-700'>
             <p className='py-2'>
