@@ -31,7 +31,7 @@ export default function Banner() {
 
           <div>
             <a
-              href='public/file/CV_NGUYENTANHUUDANH.pdf'
+              href='file/CV_NGUYENTANHUUDANH.pdf'
               className='inline-block px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition'
             >
               Download CV
