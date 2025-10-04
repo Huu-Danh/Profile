@@ -20,7 +20,6 @@ export default function Banner() {
               repeatDelay={1}
             />
           </div>
-
           <p className='text-sm md:text-xl text-gray-700 leading-relaxed'>
             <TypingText
               text='Success doesn’t come from luck, but from persistent steps taken every day.'
@@ -32,7 +31,7 @@ export default function Banner() {
 
           <div>
             <a
-              href='#'
+              href='public/file/CV_NGUYENTANHUUDANH.pdf'
               className='inline-block px-6 py-3 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition'
             >
               Download CV
