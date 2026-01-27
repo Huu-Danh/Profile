@@ -10,7 +10,7 @@ export default function Banner() {
       <div className='container mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-10'>
         <div className='w-full md:w-1/2 text-center md:text-left space-y-6'>
           <div>
-            <h1 className='text-2xl md:text-4xl pt-15 md:pt-0 text-gray-800'>Hi, I'm Hữu Danh</h1>
+            <h1 className='text-2xl md:text-4xl pt-15 md:pt-0 text-gray-800'>Hi, I'm Danh</h1>
             <ShimmeringText
               className='text-black text-4xl md:text-6xl font-bold block'
               text='Developer'
